@@ -1,0 +1,27 @@
+{
+  "name": "tf-html-hot-loader",
+  "version": "0.0.5",
+  "description": "处理html热加载",
+  "main": "index.js",
+  "keywords": [
+    "tf-html-hot-loader",
+    "webpack",
+    "loader"
+  ],
+  "scripts": {
+    "postpublish": "git add . && git commit -m \"$npm_package_version\" && git push -u origin master"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^0.2.7",
+    "tf-type": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/newchen/tf-html-hot-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newchen/tf-html-hot-loader/issues"
+  },
+  "homepage": "https://github.com/newchen/tf-html-hot-loader"
+}
